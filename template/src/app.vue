@@ -16,7 +16,7 @@ import { Vue, Component } from 'av-ts'
 
 @Component
 class App extends Vue {
-  name = 'Rem'
+  name = 'Nico'
 
   hello() {
     alert(this.name + ' is the best girl!')
