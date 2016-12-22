@@ -1,7 +1,7 @@
 <template>
 <div id="app">
   <h1 @click="hello">
-    \{{name}} is the best girl!
+    \{{name}} are the best girls!
   </h1>
   <h2>Essential Links</h2>
   <ul>
@@ -16,10 +16,10 @@ import { Vue, Component } from 'av-ts'
 
 @Component
 class App extends Vue {
-  name = 'Nico'
+  name = ['Rem', 'Nico'].join(',')
 
   hello() {
-    alert(this.name + ' is the best girl!')
+    alert(this.name + ' are the best girls!')
   }
 }
 
